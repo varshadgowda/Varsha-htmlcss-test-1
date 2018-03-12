@@ -1,19 +1,62 @@
 <!DOCTYPE html>
-<!DOCTYPE html>
 <html>
 <head>
-<link rel="stylesheet" type="text/css" href="ContactUs.css">
-	<title></title>
+<title>Shopping Kart</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="shortcut icon" href="images/logo.png">
+<link rel="stylesheet" href="/home/qwinix/Documents/Varshu/Test1/CSS/ContactUs.css">
 </head>
 <body>
-	<h1>ContactUS Form</h1>
-	<label>FirstName:</label>
-	<input type="text" name="FirstName">
-	<label>LastName:</label>
-	<input type="text" name="LastName"></br>
-	<label>Email:</label>
-	<input type="email" name="Email">
-	<label>Password</label>
-	<input type="Password" name="Password">
+<div>
+<div class="navigation-bar">
+    <div id="navigation-container">
+      <ul>
+        <li><a href="web.html">Home</a></li>
+        <li><a href="product.html">Products</a></li>
+        <li><a href="contact.html">Contact Us</a></l
+      </ul>
+    </div>
+</div>
+<div class="container" >
+<div class="heading" style="margin-top:5%;width:100%;height:50px;background:black;">
+<p style="text-align:center;font-size:30px;padding:5px;color:white;">Contact Us</p>
+</div>
+  <form action="/action_page.php" style="margin-left:28%;margin-top:5%;">
+  
+  <div>
+  <div style="width:600px;">
+	<div style="float:left;">
+		<label for="fname">First Name:</label>
+		<input type="text" id="fname" name="firstname" placeholder="Your name..">
+	</div>
+	<div style="float:right">
+		<label for="lname">Last Name:</label>
+		<input type="text" id="lname" name="lastname" placeholder="Your last name..">
+	</div>
+</div>
+   <div style="width:600px;">
+	<div style="float:left;">
+		<label for="fname">Email ID:</label>
+		<input type="text" id="fname" name="firstname" placeholder="Your email..">
+	</div>
+	<div style="float:right">
+		<label for="lname">Mobile No:</label>
+		<input type="text" id="lname" name="lastname" placeholder="Your Mobile..">
+	</div>
+    <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+</div>
+  </div>
+<div>
+    </div>
+
+    <input type="submit" value="Submit">
+  </form>
+</div>
+<div class="footer">
+<h6 style="text-align:center;
+font-size:16px;padding:15px;">copyright@Worldshop.com</h6>
+</div>
+</div>
+
 </body>
 </html>
